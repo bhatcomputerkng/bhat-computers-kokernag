@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bhat Computers - Home</title>
+  <title>Bhat Computers - Feedback</title>
 </head>
 <body>
 
@@ -31,15 +31,19 @@
 </div>
 
 
-<main style="padding:20px; text-align:center;">
-  <h2>Welcome to Bhat Computers</h2>
-  <p>Your trusted CSC & Digital Services provider.</p>
-  <div style="margin:20px;">
-    <a href="https://digitalseva.csc.gov.in/" target="_blank" 
-       style="display:inline-block; background:#28a745; color:white; 
-              padding:12px 25px; border-radius:8px; text-decoration:none; 
-              font-size:18px;">🚀 Go to Digital Seva Portal</a>
-  </div>
+<main style="padding:20px;">
+  <h2>Feedback Form</h2>
+  <form action="https://formspree.io/f/mnqekyyo" method="POST" style="max-width:500px; margin:auto;">
+    <label>Name:</label><br>
+    <input type="text" name="name" required style="width:100%; padding:8px; margin:5px 0;"><br>
+    <label>Email:</label><br>
+    <input type="email" name="email" required style="width:100%; padding:8px; margin:5px 0;"><br>
+    <label>Message:</label><br>
+    <textarea name="message" required style="width:100%; padding:8px; margin:5px 0;"></textarea><br>
+    <button type="submit" style="background:#28a745; color:white; padding:10px 20px; border:none; border-radius:5px;">
+      Submit Feedback
+    </button>
+  </form>
 </main>
 
 
